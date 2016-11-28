@@ -42,3 +42,12 @@ User.findById(id).then((user) => {
 	}
 	console.log('User By ID', user);
 }).catch((e) => console.log(e));
+
+
+
+
+
+
+
+
+
