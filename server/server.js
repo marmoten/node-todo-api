@@ -10,7 +10,7 @@ var {User} = require('./models/user');
 
 // start express
 var app = express();
-const port = process.end.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 //middleware
 app.use(bodyParser.json());
